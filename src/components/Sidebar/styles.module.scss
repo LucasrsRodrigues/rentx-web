@@ -1,0 +1,49 @@
+.container {
+  width: 80px;
+  height: 100%;
+  position: fixed;
+}
+
+.logo {
+  padding: 30.91px;
+  background: var(--red);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background: var(--black-80);
+  height: calc(100vh - 81.8px);
+  display: flex;
+  align-items: center;
+
+}
+
+.wrapperLinks {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  a {
+    padding: 17px 29px;
+
+    &.active{
+      background: var(--black);
+      border-left: 3px solid var(--red);
+      
+      svg {
+        color: var(--white);
+      }
+    }
+    
+    & + a {
+      margin-top: 1rem;
+    }
+
+  }
+
+  svg {
+    width: 22px;
+    height: auto;
+  }
+}

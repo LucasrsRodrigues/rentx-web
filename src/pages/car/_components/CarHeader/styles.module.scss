@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 2px solid var(--grey-black);
+
+  svg {
+    width: 30px;
+    height: auto;
+    margin-right: 59px;
+  }
+
+  .wrapperInfo {
+    display: flex;
+
+    div {
+      small {
+        display: block;
+        color: var(--gray-detail-text);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+      & + div {
+        margin-left: 48px;
+      }
+
+      strong {
+        font-size: 36px;
+        color: var(--gray-title);
+
+        &.price {
+          color: var(--red);
+        }
+      }
+    }
+  }
+}

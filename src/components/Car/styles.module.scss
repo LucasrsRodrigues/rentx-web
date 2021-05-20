@@ -1,0 +1,62 @@
+.car {
+  width: 360px;
+  height: 293px;
+  background: var(--white);
+  border: 1px solid var(--grey-secundary);
+  cursor: pointer;
+  transition: margin-top 0.2s;
+
+  &:hover {
+    margin-top: -0.5em;
+  }
+
+  img {
+    padding: 37px 31px 40px 41px;
+  }
+
+  .footer {
+    display: flex;
+    border-top: 2px solid var(--grey-secundary);
+    padding: 20px 24px;
+    justify-content: space-between;
+
+    svg {
+      width: 38px;
+      height: auto;
+      color: var(--gray-detail-text);
+    }
+  }
+
+  .detail {
+    display: flex;
+    flex: 1;
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      color: var(--gray-detail-text);
+      letter-spacing: 0.04em;
+
+      font-size: 12px;
+      font-weight: 500;
+
+      strong {
+        margin-top: 8px;
+        color: var(--gray-title);
+        font-weight: 500;
+        font-size: 20px;
+      }
+
+      span {
+        margin-top: 8px;
+        color: var(--red);
+        font-weight: 500;
+        font-size: 20px;
+      }
+
+      & + div {
+        margin-left: 24px;
+      }
+    }
+  }
+}

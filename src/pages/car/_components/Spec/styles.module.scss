@@ -1,0 +1,28 @@
+.spec {
+  display: flex;
+  align-items: center;
+  background: var(--grey-main);
+  border-bottom: 1px solid var(--grey-secundary);
+
+
+  .icon {
+    padding: 17px 18px  19px;
+    border-right: 2px solid #FFFFFF;
+
+    svg {
+      width: 28px;
+      height: auto;
+      color: var(--gray-title);
+    }
+  }
+
+  .detail {
+    padding: 21px 31px 21px 16px;
+
+    strong {
+      font-family: 'Inter';
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

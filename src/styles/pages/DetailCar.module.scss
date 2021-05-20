@@ -1,0 +1,51 @@
+.container {
+  background: var(--white);
+  height: 100vh;
+
+  .content {
+    padding: var(--section-padding);
+  }
+}
+
+.carBody {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .wrapperSpecs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 8px;
+    }
+  }
+}
+
+.about {
+  margin-top: 34px;
+
+  .top {
+    button {
+      width: 50%;
+      padding: 14px 39px;
+      background: none;
+      border: 0;
+      border-bottom: 1px solid var(--grey-secundary);
+      color: var(--grey-black);
+
+      font-weight: 600;
+      font-family: "Inter";
+      font-size: 14px;
+      text-transform: uppercase;
+
+      &.active {
+        color: var(--gray-title);
+        border-bottom: 2px solid var(--red);
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+  margin-top: 24px;
+  max-width: 384px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 26px;
+
+  .submit {
+    width: 100%;
+    padding: 29px 72px;
+    background: var(--red);
+    color: var(--white);
+    border: 0;
+    border-radius: 0;
+    margin-top: 51px;
+  }
+}

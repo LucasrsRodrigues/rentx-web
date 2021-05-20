@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  background: var(--white);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: var(--section-padding);
+  justify-content: space-between;
+
+  h1 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Inter';
+    color: var(--gray-title);
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    color: var(--gray-title);
+    font-family: 'Inter';
+    font-weight: 600;
+
+    .user {
+      width: 48px;
+      height: 48px;
+      background: var(--grey-secundary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 1rem;
+
+      svg {
+        color: var(--gray-text);
+
+        width: 24px;
+        height: auto;
+      }
+    }
+  }
+}

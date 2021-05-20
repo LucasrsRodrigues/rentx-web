@@ -1,0 +1,31 @@
+.container {
+  height: 100vh;
+
+  .content {
+    width: 100%;
+
+    main {
+      padding: var(--section-padding);
+
+      .top {
+        display: flex;
+        align-items: center;
+        color: var(--gray-title);
+        border-bottom: 2px solid #dedee3;
+        padding: 24px 0;
+
+        span {
+          color: var(--gray-text);
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
+
+.wrapperCars {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
